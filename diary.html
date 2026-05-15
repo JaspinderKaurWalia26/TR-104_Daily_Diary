@@ -466,109 +466,32 @@
         const totalWeeks = 36;
         const daysPerWeek = 5;
 
-        // ✅ Day data - Aap yahan apni marzi se PDF ya GitHub link add kar sakte ho
         const dayData = {
-            1: { 
-                type: "pdf", 
-                src: "./Daily Diary/Day 1 Daily Diary.pdf" 
-            },
-            2: { 
-                type: "pdf", 
-                src: "./Daily Diary/Day 2 Daily Diary.pdf" 
-            },
-            3: { 
-                type: "pdf", 
-                src: "./Daily Diary/Day 3 Daily Diary.pdf" 
-            },
-            4: { 
-                type: "pdf", 
-                src: "./Daily Diary/Day 4 Daily Diary.pdf" 
-            },
-            5: { 
-                type: "pdf", 
-                src: "./Daily Diary/Day 5 Daily Diary.pdf" 
-            },
-            6: { 
-                type: "github", 
-                src: "https://github.com/JaspinderKaurWalia26/Python_Practice_Codes/tree/main/19-01-2026" 
-            },
-            7: { 
-                type: "github", 
-                src: "https://github.com/JaspinderKaurWalia26/Python_Practice_Codes/tree/main/20-01-2026" 
-            },
-            8: { 
-                type: "github", 
-                src: "https://github.com/JaspinderKaurWalia26/Python_Practice_Codes/tree/main/21-01-2026" 
-            },
-            9: { 
-                type: "github", 
-                src: "https://github.com/JaspinderKaurWalia26/Python_Practice_Codes/tree/main/22-01-2026" 
-            },
-            10: { 
-                type: "github", 
-                src: "https://github.com/JaspinderKaurWalia26/Python_Practice_Codes/tree/main/23-01-2026" 
-            },
-            11: { 
-                type: "github", 
-                src: "https://github.com/JaspinderKaurWalia26/Python_Practice_Codes/tree/main/23-01-2026" 
-            },
-            12: { 
-                type: "github", 
-                src: "https://github.com/JaspinderKaurWalia26/Python_Practice_Codes/tree/main/27-01-2026" 
-            },
-            13: { 
-                type: "github", 
-                src: "https://github.com/JaspinderKaurWalia26/Python_Practice_Codes/tree/main/28-01-2026" 
-            },
-            14: { 
-                type: "github", 
-                src: "https://github.com/JaspinderKaurWalia26/Python_Practice_Codes/tree/main/29-01-2026" 
-            },
-            15: { 
-                type: "github", 
-                src: "https://github.com/JaspinderKaurWalia26/Fraud_Detection" 
-            },
-            16: { 
-                type: "github", 
-                src: "https://github.com/JaspinderKaurWalia26/Python_Practice_Codes/tree/main/02-02-2026" 
-            },
-            17: { 
-                type: "github", 
-                src: "https://github.com/JaspinderKaurWalia26/Python_Practice_Codes/tree/main/03-02-2026" 
-            },
-            18: { 
-                type: "github", 
-                src: "https://github.com/JaspinderKaurWalia26/Python_Practice_Codes/tree/main/04-02-2026" 
-            },
-            19: { 
-                type: "github", 
-                src: "https://github.com/JaspinderKaurWalia26/Python_Practice_Codes/tree/main/05-02-2026" 
-            },
-            20: { 
-                type: "github", 
-                src: "https://github.com/JaspinderKaurWalia26/Python_Practice_Codes/tree/main/06-02-2026" 
-            },
-            21: { 
-                type: "github", 
-                src: "https://github.com/JaspinderKaurWalia26/PROJECT-1-Async-API-Data-Fetcher" 
-            },
-            22: { 
-                type: "github", 
-                src: "https://github.com/JaspinderKaurWalia26/PROJECT-2-Async-File-Processor" 
-            },
-            23: { 
-                type: "github", 
-                src: "https://github.com/JaspinderKaurWalia26/NLP/tree/main/Vectorization" 
-            },
-            24: { 
-                type: "github", 
-                src: "https://github.com/JaspinderKaurWalia26/NLP/blob/main/Similarity_and_distance/main.py" 
-            },
-            25: { 
-                type: "github", 
-                src: "https://github.com/JaspinderKaurWalia26/NLP/tree/main/Text_Classification" 
-            }
-       
+            1:  { type: "pdf", src: "./Daily Diary/Day 1 Daily Diary.pdf" },
+            2:  { type: "pdf", src: "./Daily Diary/Day 2 Daily Diary.pdf" },
+            3:  { type: "pdf", src: "./Daily Diary/Day 3 Daily Diary.pdf" },
+            4:  { type: "pdf", src: "./Daily Diary/Day 4 Daily Diary.pdf" },
+            5:  { type: "pdf", src: "./Daily Diary/Day 5 Daily Diary.pdf" },
+            6:  { type: "pdf", src: "./Daily Diary/Day 6 Daily Diary.pdf" },
+            7:  { type: "pdf", src: "./Daily Diary/Day 7 Daily Diary.pdf" },
+            8:  { type: "pdf", src: "./Daily Diary/Day 8 Daily Diary.pdf" },
+            9:  { type: "pdf", src: "./Daily Diary/Day 9 Daily Diary.pdf" },
+            10: { type: "pdf", src: "./Daily Diary/Day 10 Daily Diary.pdf" },
+            11: { type: "pdf", src: "./Daily Diary/Day 11 Daily Diary.pdf" },
+            12: { type: "pdf", src: "./Daily Diary/Day 12 Daily Diary.pdf" },
+            13: { type: "pdf", src: "./Daily Diary/Day 13 Daily Diary.pdf" },
+            14: { type: "pdf", src: "./Daily Diary/Day 14 Daily Diary.pdf" },
+            15: { type: "pdf", src: "./Daily Diary/Day 15 Daily Diary.pdf" },
+            16: { type: "pdf", src: "./Daily Diary/Day 16 Daily Diary.pdf" },
+            17: { type: "pdf", src: "./Daily Diary/Day 17 Daily Diary.pdf" },
+            18: { type: "pdf", src: "./Daily Diary/Day 18 Daily Diary.pdf" },
+            19: { type: "pdf", src: "./Daily Diary/Day 19 Daily Diary.pdf" },
+            20: { type: "pdf", src: "./Daily Diary/Day 20 Daily Diary.pdf" },
+            21: { type: "pdf", src: "./Daily Diary/Day 21 Daily Diary.pdf" },
+            22: { type: "pdf", src: "./Daily Diary/Day 22 Daily Diary.pdf" },
+            23: { type: "pdf", src: "./Daily Diary/Day 23 Daily Diary.pdf" },
+            24: { type: "pdf", src: "./Daily Diary/Day 24 Daily Diary.pdf" },
+            25: { type: "pdf", src: "./Daily Diary/Day 25 Daily Diary.pdf" }
         };
 
         function initializeWeeks() {
@@ -645,7 +568,6 @@
                         </section>
                     `;
                 } else if (item.type === "github") {
-                   
                     dayContent.innerHTML = `
                         <section class="section active">
                             <div class="day-header">
@@ -670,7 +592,6 @@
                     `;
                 }
             } else {
-                
                 dayContent.innerHTML = `
                     <section class="section active">
                         <div class="day-header">
@@ -686,13 +607,6 @@
             }
         }
 
-        function showHome() {
-            document.getElementById('home').classList.add('active');
-            document.getElementById('dayContent').innerHTML = '';
-            document.querySelectorAll('.week-btn').forEach(btn => btn.classList.remove('active'));
-            document.querySelectorAll('.day-list').forEach(list => list.classList.remove('active'));
-            document.querySelectorAll('.day-btn').forEach(btn => btn.classList.remove('active'));
-        }
         function showHome() {
             window.location.href = 'index.html';
         }
@@ -713,7 +627,6 @@
             });
         }
 
-        
         initializeWeeks();
     </script>
 </body>
