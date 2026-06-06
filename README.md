@@ -10,7 +10,7 @@ Documenting 6 months of industrial training at Vidya Corporation
 |-------|---------|
 | Company | Vidya Corporation |
 | Duration | 6 Months |
-| Focus | Python with AI/ML |
+| Focus | Python with Generative AI/ML |
 | Course | TR-104 Industrial Training |
 
 👉 **[View Daily Diary](https://jaspinderkaurwalia26.github.io/TR-104_Daily_Diary/)**
